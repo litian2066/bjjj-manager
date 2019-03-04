@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*登录页面专用CSS文件*/
+body{padding-top:5px;}
+.w{width: 990px;margin: 0 auto;}
+#logo{ position: relative;width: 300px;margin: 10px 0;height: 60px;float: left;}
+#logo span {display: block;width: 110px;height: 40px;position: absolute;right: 0;top: 10px;background: url(//misc.360buyimg.com/user/passport/1.0.0/css/i/l-icon.png) no-repeat;}
+#content{clear: both;}
+.login-wrap{position: relative;height: 475px;margin: 10px 0 20px;z-index: 5;}
+.login-wrap .login-banner {position: absolute;left: 0;top: 0;width: 100%;height: 475px;/*  background: #e93854; */ background: #06c;}
+.login-wrap .i-inner {position: relative;z-index: 3;height: 475px;}
+.login-wrap .login-form {float: right;top: 100px;right:0px;}
+.login-form {position: relative;z-index: 4;background: #fff;overflow: visible;width: 346px;}
+.login-form .login-tab-l, .login-form .login-tab-r {width: 345px;}
+.login-form .login-tab {height: 54px;font-size: 18px;font-family: "microsoft yahei";text-align: center;border-bottom: 1px solid #f4f4f4;position: absolute;background: #fff;display: block;}
+.login-form .login-tab a.checked, .login-form .login-tab a:hover {font-weight: 700;/* color: #e4393c; */color: #16a7f6;}
+.login-form .login-tab a { width: 99%;height: 18px;position: absolute; left: 0;top: 18px;border-right: 1px solid #f4f4f4;text-decoration: none;}
+.login-form .login-tab-r {right: 0;}
+a {color: #666;text-decoration: none;}
+.login-form .login-box {width: 306px; padding: 20px;visibility: hidden;}
+.login-form .login-box .tab-h {height: 35px;}
+.login-form .login-box .mt {display: inline-block;display: block; width: 306px;overflow: visible;height: 27px;}
+.login-form .login-box .mt:after {content: ".";display: block;height: 0;clear: both;visibility: hidden}
+* html .login-form .login-box .mt {height: 1%}
+*+html .login-form .login-box .mt {min-height: 1%}
+.login-form .msg-wrap { /* 	margin:20px; */margin: 7px 20px 15px 20px;height: auto!important;}
+.login-form .msg-error { position: relative; background: #ffebeb;color: #e4393c;border: 1px solid #faccc6;padding: 3px 10px 3px 40px;line-height: 15px;height: auto;}
+.login-form .msg-error b {position: absolute;top: 50%;left: 10px;display: block; margin-top: -8px;width: 16px;height: 16px;overflow: hidden;background: url(//misc.360buyimg.com/user/passport/1.0.0/widget/login-form-2016-1124/i/pwd-icons-new.png) -104px -49px no-repeat;}
+.hide {display: none;}
+.login-form .login-box .mc {overflow: visible;zoom: 1;}
+.form-group {margin-bottom: 20px;}
+.btn-fa{width:100%;height: 40px;border: 0;display: inline-block;overflow: hidden;vertical-align: middle;line-height: 40px;font-size: 16px;font-weight: 700; color: #fff;background: #06c;border-radius: 3px;cursor: pointer;zoom: 1;transition: all 0.15s ease;-webkit-transition: all 0.15s ease;-moz-transition: all 0.15s ease;}
+.btn-fa:hover{background-color: #16a7f6;-webkit-transform: scale(1.03);transform: scale(1.03);}
+/*底部CSS代码*/
+.footer{width: 1200px;margin: 0 auto; padding: 20px 0;overflow: hidden;}
+.footer .f-logo {float: left; margin-top: 15px; border-right: 1px solid #a8a8a8; padding-right: 20px;margin-right: -220px;}
+.footer .f-nav {margin-top: 12px;width: 100%;float: left;}
+.footer .f-nav p {color: #666; margin: 5px 200px 0 240px;}
+.footer .f-nav p a {color: #666; padding-right: 10px;}
+.footer .f-nav p a:after {content: '|';padding-left: 10px;font-size: 12px;color: #999;}
+.footer .f-ewm {float: right;margin-left: -180px;}
+.footer .f-ewm p { width: 89px; height: 80px;border: 1px solid #a8a8a8;border-right: 0px; float: left; text-align: center;}
+.footer .f-ewm p i {width: 70px; display: block; line-height: 1.4em; margin: 20px auto 0;  color: #a8a8a8;font-size: 13px;font-style: normal;}

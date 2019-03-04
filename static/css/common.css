@@ -1,0 +1,11 @@
+/**
+  前端项目统一CSS
+  @version 1.0
+  @author litian
+  @Date 2019-3-1
+ */
+@charset "UTF-8";
+html, body {
+  height: 100%;
+  /*background-color: ; */
+}
